@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9809EABF1F6C8DD000A3E2EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809EABE1F6C8DD000A3E2EE /* AppDelegate.swift */; };
-		9809EAC11F6C8DD000A3E2EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809EAC01F6C8DD000A3E2EE /* ViewController.swift */; };
+		9809EAC11F6C8DD000A3E2EE /* ColorPresenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809EAC01F6C8DD000A3E2EE /* ColorPresenterVC.swift */; };
 		9809EAC41F6C8DD000A3E2EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9809EAC21F6C8DD000A3E2EE /* Main.storyboard */; };
 		9809EAC61F6C8DD000A3E2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9809EAC51F6C8DD000A3E2EE /* Assets.xcassets */; };
 		9809EAC91F6C8DD000A3E2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9809EAC71F6C8DD000A3E2EE /* LaunchScreen.storyboard */; };
+		9891DEAE1F6CB0F100B5C017 /* ColorPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891DEAD1F6CB0F100B5C017 /* ColorPickerVC.swift */; };
+		9891DEB01F6CB3EC00B5C017 /* ColorTransferDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891DEAF1F6CB3EC00B5C017 /* ColorTransferDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9809EABB1F6C8DD000A3E2EE /* Color Magic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Magic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9809EABE1F6C8DD000A3E2EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9809EAC01F6C8DD000A3E2EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9809EAC01F6C8DD000A3E2EE /* ColorPresenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPresenterVC.swift; sourceTree = "<group>"; };
 		9809EAC31F6C8DD000A3E2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9809EAC51F6C8DD000A3E2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9809EAC81F6C8DD000A3E2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9809EACA1F6C8DD000A3E2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9891DEAD1F6CB0F100B5C017 /* ColorPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerVC.swift; sourceTree = "<group>"; };
+		9891DEAF1F6CB3EC00B5C017 /* ColorTransferDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransferDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				9809EABE1F6C8DD000A3E2EE /* AppDelegate.swift */,
-				9809EAC01F6C8DD000A3E2EE /* ViewController.swift */,
+				9809EAC01F6C8DD000A3E2EE /* ColorPresenterVC.swift */,
+				9891DEAD1F6CB0F100B5C017 /* ColorPickerVC.swift */,
+				9891DEAF1F6CB3EC00B5C017 /* ColorTransferDelegate.swift */,
 				9809EAC21F6C8DD000A3E2EE /* Main.storyboard */,
 				9809EAC51F6C8DD000A3E2EE /* Assets.xcassets */,
 				9809EAC71F6C8DD000A3E2EE /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9809EAC11F6C8DD000A3E2EE /* ViewController.swift in Sources */,
+				9809EAC11F6C8DD000A3E2EE /* ColorPresenterVC.swift in Sources */,
+				9891DEB01F6CB3EC00B5C017 /* ColorTransferDelegate.swift in Sources */,
 				9809EABF1F6C8DD000A3E2EE /* AppDelegate.swift in Sources */,
+				9891DEAE1F6CB0F100B5C017 /* ColorPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
